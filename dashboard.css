@@ -1,0 +1,158 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #FFD2D2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbardir {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    margin-right: 40px;
+    transition: 0.3s;
+    padding: 40px 30px;
+}
+
+.navbardir:hover {
+    background-color: #FF8C8C;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.user {
+    display: flex;
+    background-color: #D9D9D9;
+    text-align: center;
+    width: 322px;
+    margin-left: 25px
+}
+
+.user-icon {
+    background-color: white;
+    width: 70px;
+    height: 75px;
+    border-radius: 50%;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+.user-logout {
+    background-color: white;
+    width: 185px;
+    height: 75px;
+    margin: 22px;
+    font-size: 18px;
+}
+
+.sportSelect {
+    width: 320px;
+    height: 30px;
+    background-color: #FF8C8C;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sportSelect select {
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    text-align: center;
+}
+
+.section:hover {
+    background-color: #fdbfbf;
+}
+
+.section {
+    text-decoration: none;
+    color: black;
+    width: 340px;
+    display: inline-block !important;
+    all: unset;
+    background-color: rgba(255, 140, 140, 0.25);
+    padding: 40px 200px;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-right: 60px;
+}
+
+.content {
+    width: 70%;
+    height: 475px;
+    background-color: #FFF6F6;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.message {
+    background-color: white;
+    width: 215px;
+    height: 45px;
+    margin-bottom: 35px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.avast {
+    background-color: #FF8C8C;
+    border-radius: 50%;
+    width: 43px;
+    height: 43px;
+    margin-right: 30px;
+}
+
+.footer {
+    color: black;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.footerdir {
+    text-decoration: none;
+    color: black;
+}
+
+.footer-icon-container {
+    display: flex;
+    justify-content: center;
+}
+
+.login-reminder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: white;
+    color: #FF6F6F;
+    padding: 10px 12px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.login-reminder p {
+    margin: 0;
+}
